@@ -9,22 +9,22 @@ body {
   background-color: #88a2bc;
   padding: 0;
   margin: 0;
-  display: grid;
-  grid:
-    "nav main" 1fr
-    "nav footer" max-content
-    / minmax(max-content, 25%) 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
 }
 
-body > * {
+body>* {
   padding: 20px;
 }
 
 nav {
-  grid-area: nav;
   background-color: #4f6a8f;
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
+  flex-grow: 1;
+  padding-right: 5em;
 }
 
 nav ul {
@@ -40,6 +40,7 @@ nav ul {
 nav ul li a {
   padding: 10px 10px;
 }
+
 nav ul li ul {
   font-size: 0.75em;
   padding-left: 20px;
@@ -55,7 +56,6 @@ nav a {
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 3px;
-
   text-decoration-color: #88a2bc;
 }
 
@@ -64,41 +64,25 @@ nav a:hover {
   text-decoration-color: #4f6a8f;
 }
 
+/* nav #instagram::after {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png');
+  background-size: 1em 1em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  content: "";
+  padding: 0;
+} */
+
 main {
-  grid-area: main;
+  flex-grow: 1000;
+  width: min-content;
 }
 
 main ul {
   list-style-type: square;
 }
+
 main a {
   color: black;
-}
-
-footer {
-  grid-area: footer;
-  padding: 10px;
-  text-align: center;
-}
-
-footer img {
-  height: 20px;
-}
-
-@media all and (max-width: 600px) {
-  body {
-    grid:
-      "nav" max-content
-      "main" 1fr
-      "footer" max-content
-      / 100%;
-  }
-
-  nav {
-    text-align: center;
-  }
-
-  nav ul li ul {
-    padding-left: 0;
-  }
 }
