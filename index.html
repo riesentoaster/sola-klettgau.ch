@@ -7,26 +7,27 @@ title: Home
 <p id="call">Save the date!</p>
 <p id="date">27. Juli – 3. August 2024</p>
 <p id="details">Details folgen…</p>
+<div id="signup"><a href="https://junge-kirche-klettgau.ch/leiteranmeldungsola24"> Anmeldung Leiter </a></div>
 
 <style>
     main {
         background-color: black;
+        color: white;
         padding-bottom: 100px;
     }
 
-    h1,
-    p {
-        color: white;
+    main h1,
+    main p {
         text-align: center;
     }
 
-    h1 {
+    main h1 {
         font-size: 4rem;
         font-family: 'copperplate', serif;
     }
 
-    p {
-        font-size: 2rem;
+    main p {
+        font-size: 1rem;
     }
 
     p#call {
@@ -34,7 +35,20 @@ title: Home
         font-style: italic;
     }
 
-    p#details {
-        font-size: 1rem;
+    p#date {
+        font-size: 2rem;
+    }
+
+    #signup {
+        margin-top: 5rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    main a {
+        border: 1px solid white;
+        border-radius: 9999px;
+        padding: 0.3rem 0.6rem;
     }
 </style>
