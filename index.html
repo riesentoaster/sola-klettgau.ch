@@ -3,13 +3,19 @@ layout: default
 title: Home
 ---
 
-<h1>SOLA 2024</br>—</br>Pioniere</h1>
-<p id="date">27. Juli – 3. August 2024</p>
+<img src="/assets/SOLA2024/logo.svg" alt="SOLA 2024 – Logo" id="logo">
 <p id="details">
     Gerüchte machen die Runde, ein noch unbekanntes Gebiet wurde entdeckt! Es soll voller Schätze, Rohstoffe und
     Heilpflanzen sein. Ein mutiges Team von Forschern beschliesst das unbekannte Gebiet zu erkunden und zu erforschen.
     Sie brauchen jedoch deine Unterstützung in ihrer Pioniergruppe! Bist du dabei?
 </p>
+
+<h2>Details</h2>
+<ul>
+    <li>Datum: 27. Juli – 3. August 2024</li>
+    <li>Jungscharen: Beringen, Gächlingen–Löhningen–Oberhallau, Marthalen</li>
+</ul>
+
 
 <h2>Anmeldung</h2>
 <p><a href="https://www.junge-kirche-klettgau.ch/tnsola24">Anmeldung Teilnehmer</a></p>
@@ -20,29 +26,57 @@ title: Home
 <p><a href="mailto:philippe.niklaus@ref-sh.ch">Philippe Niklaus</a></p>
 
 <style>
+    @font-face {
+        font-family: 'BeyondTheMountains';
+        src: url('/assets/SOLA2024/BeyondTheMountains.otf') format('opentype');
+    }
+
+    @font-face {
+        font-family: 'Oswald';
+        src: url('/assets/SOLA2024/Oswald.ttf') format('truetype');
+    }
+
     main {
-        background-color: black;
+        background-color: #123D39;
         color: white;
         padding-bottom: 100px;
         text-align: center;
-    }
-
-    main h1 {
-        font-size: 4rem;
-        font-family: 'copperplate', serif;
+        font-family: 'Oswald', 'sans-serif';
+        font-weight: lighter;
+        letter-spacing: 0.05em;
     }
 
     main h2 {
-        margin-top: 5rem;
+        font-size: 3rem;
+        font-family: 'BeyondTheMountains', serif;
+        margin-top: 1.4em;
+        color: #F3901A;
     }
 
-    main p#date {
-        font-size: 1.5rem;
+    main #details {
+        background-color: #12233B;
+        padding: 2em;
+        border-radius: 1em;
+        font-style: italic;
+    }
+
+    main ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    main li {
+        margin: 0.3em 0;
     }
 
     main a {
         border: 1px solid white;
         border-radius: 9999px;
-        padding: 0.3rem 0.6rem;
+        padding: 0.3rem 0.8rem;
+    }
+
+    #logo {
+        height: 20rem;
+        padding-bottom: 3rem;
     }
 </style>
