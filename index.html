@@ -10,17 +10,22 @@ title: Home
     Sie brauchen jedoch deine Unterstützung in ihrer Pioniergruppe! Bist du dabei?
 </p>
 
+<iframe src="https://www.youtube-nocookie.com/embed/4Ogj0btEXiE?si=df9iytyCN6JRqm1h" title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <h2>Details</h2>
 
-<p>
+<p class="trim">
     Im Sommer 2024 führen die Jungscharen Beringen, Gä-Lö-Oha und Marthalen zusammen ein Zeltlager durch. Eingeladen
     sind Kinder, die nach den Sommerferien in die 4.–9. Klasse kommen. Das Lager findet vom 27. Juli bis zum 3. August
     im Klettgau statt. Wir werden draussen übernachten, über dem Feuer kochen, wandern, spielen, Abenteuer erleben,
     Geschichten hören und auf jeden Fall eine tolle und spannende Zeit miteinander verbringen.
 </p>
 
-<p>Hast du schon Lust bekommen? Dann <a href="#anmeldung">melde dich direkt an</a>!</p>
-<p>Wenn du dir noch nicht ganz vorstellen kannst, wie so ein SOLA funktioniert, schau dir doch die <a
+<p class="trim">Hast du schon Lust bekommen? Dann <a href="#anmeldung">melde dich direkt an</a>!</p>
+<p class="trim">Wenn du dir noch nicht ganz vorstellen kannst, wie so ein SOLA funktioniert, schau dir doch die <a
         href="/archiv">Fotos und Bilder der letzten Jahre</a> an.</p>
 
 <h2 id="anmeldung">Anmeldung</h2>
@@ -50,6 +55,7 @@ title: Home
         font-family: 'Oswald', 'sans-serif';
         font-weight: lighter;
         letter-spacing: 0.05em;
+        width: 100%;
     }
 
     main h2 {
@@ -64,6 +70,9 @@ title: Home
         padding: 2em;
         border-radius: 1em;
         font-style: italic;
+        width: calc(100%-4em);
+        max-width: 60em;
+        margin: 0 auto;
     }
 
     main ul {
@@ -73,6 +82,12 @@ title: Home
 
     main li {
         margin: 0.3em 0;
+    }
+
+    .trim {
+        width: 100%;
+        max-width: 80em;
+        margin: 0 auto;
     }
 
     main a {
@@ -88,5 +103,12 @@ title: Home
     #logo {
         height: 20rem;
         padding-bottom: 3rem;
+    }
+
+    iframe {
+        width: 100%;
+        max-width: 800px;
+        aspect-ratio: 16/9;
+        margin: 2rem auto;
     }
 </style>
