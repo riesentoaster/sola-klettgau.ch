@@ -1,4 +1,4 @@
 ---
-link: "https://map.geo.admin.ch/?E=2776561&N=1198130&zoom=7.212810476891937&crosshair=marker"
+link: https://maps.app.goo.gl/fkfXt9taaNQ4eVxS7
 layout: forward
 ---
