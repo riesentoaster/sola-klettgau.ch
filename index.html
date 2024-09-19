@@ -23,23 +23,28 @@ layout: default
     margin-left: 5em;
   }
 
-  #call {
+  h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    margin-top: 50px;
     background-color: #eeeeee;
     border: 2.5px solid black;
     border-radius: 2em;
     padding: 1em;
   }
 
-  #call span {
+  .hilfe {
     float: left;
-    /* position: absolute; */
     font-size: 3rem;
     font-weight: bolder;
     color: #f70000;
-    margin-top: -1.2em;
-    margin-left: -0.4em;
-    margin-right: 0.5em;
+    margin: -1.2em 0.5em -1.2em -0.4em;
     rotate: -10deg;
+    text-shadow: 0 0 0.2em white;
   }
 
   nav {
@@ -49,19 +54,55 @@ layout: default
   nav a:hover {
     background-color: #dddddd;
   }
+
+  .content ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  .content ul li {
+    border: 1px dashed black;
+    border-radius: 0.6em;
+    padding: 0.2em 0.4em;
+    width: max-content;
+    margin: 0 auto 20px;
+    font-size: 1.1rem;
+  }
 </style>
 
 <h1>Gallier</h1>
 <h2>SOLA 2025</h2>
 
-<p id="call"><span>Hilfe!!!</span>Das Dorf Vindomis wird von Römern bedrängt und ist bald vollständig umzingelt! Seit
-  langer Zeit kämpfen die
-  Römer um das Gebiet Gallien, doch von Vindomis erhalten sie tapfer Widerstand. Jedoch braucht es dringend
-  Unterstützung. Wenn ihnen nicht bald zu Hilfe geeilt wird, verliert Gallien doch noch den letzten nördlichen
-  Stützpunkt. Hast du Mut den Galliern gegen die Überhand der Römer beizustehen? Dann komm mit uns mit!
+<div class="content">
+  <p class="hilfe">Hilfe!!!</p>
+  <p>Das Dorf Vindomis wird von Römern bedrängt und ist bald vollständig umzingelt! Seit
+    langer Zeit kämpfen die
+    Römer um das Gebiet Gallien, doch von Vindomis erhalten sie tapfer Widerstand. Jedoch braucht es dringend
+    Unterstützung. Wenn ihnen nicht bald zu Hilfe geeilt wird, verliert Gallien doch noch den letzten nördlichen
+    Stützpunkt. Hast du Mut den Galliern gegen die Überhand der Römer beizustehen? Dann komm mit uns mit!
+    <br /><br /><br /><br />
+  <h3>Infos</h3>
 
-  </br></br>
+  Im Sommer 2025 führen die Jungscharen Beringen, Gä-Lö-Oha, Marthalen und Schlaate zusammen ein Zeltlager durch.
+  Eingeladen sind Kinder, die nach den Sommerferien in die 4.–9. Klasse kommen. Das Lager findet vom 26. Juli bis zum
+  2. August statt. Wir werden draussen übernachten, über dem Feuer kochen, wandern, spielen, Abenteuer erleben,
+  Geschichten hören und auf jeden Fall eine tolle und spannende Zeit miteinander verbringen.
+  </p>
 
-  Der Bote ist unterwegs, alle weiteren Infos sollten bald ankommen. Halte dir auf jeden Fall die Woche vom <b>26. Juli
-    bis 2. August 2025</b> frei!
-</p>
+  <h3>Anmeldung</h3>
+  <ul>
+    <a href="https://junge-kirche-klettgau.ch/tnsola25">
+      <li>Für Teilnehmer</li>
+    </a>
+    <a href="https://junge-kirche-klettgau.ch/leitersola25">
+      <li>Für Leiter</li>
+    </a>
+  </ul>
+
+  <h3>Kontakt</h3>
+  Matthias Niklaus<br />
+  Hauptleiter<br />
+  <a href="tel:+41793828207">079 382 82 07</a><br />
+  <a href="mailto:matthias.niklaus@ref-sh.ch">matthias.niklaus@ref-sh.ch</a><br />
+
+</div>
