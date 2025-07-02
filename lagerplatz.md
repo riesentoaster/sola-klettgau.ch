@@ -1,4 +1,4 @@
 ---
-link: https://maps.app.goo.gl/fkfXt9taaNQ4eVxS7
+link: "https://s.geo.admin.ch/rp7gomkfmbbh"
 layout: forward
 ---

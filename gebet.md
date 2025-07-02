@@ -1,4 +1,4 @@
 ---
-link: "https://chat.whatsapp.com/DGT1ok2w0gW9kpILbuiWAn"
+link: "https://whatsapp.com/channel/0029VbAAQ0p17EmpUt0Tmy0W"
 layout: forward
 ---
